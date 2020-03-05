@@ -1,1 +1,45 @@
-<p>charts-one works!</p>
+<div class="row">
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <app-doughnut-chart
+          [doughnutChartLabels]="graficos.grafico1.labels"
+          [doughnutChartData]="graficos.grafico1.data">
+        </app-doughnut-chart>
+      </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <app-doughnut-chart
+          [doughnutChartLabels]="graficos.grafico2.labels"
+          [doughnutChartData]="graficos.grafico2.data">
+        </app-doughnut-chart>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <app-doughnut-chart
+          [doughnutChartLabels]="graficos.grafico3.labels"
+          [doughnutChartData]="graficos.grafico1.data">
+        </app-doughnut-chart>
+      </div>
+    </div>
+  </div>
+  <div class="col-6">
+    <div class="card">
+      <div class="card-body">
+        <app-doughnut-chart
+          [doughnutChartLabels]="graficos.grafico4.labels"
+          [doughnutChartData]="graficos.grafico2.data">
+        </app-doughnut-chart>
+      </div>
+    </div>
+  </div>
+</div>
